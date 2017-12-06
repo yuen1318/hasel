@@ -1,0 +1,43 @@
+header,
+main,
+footer {
+  padding-left: 250px;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 1%;
+  left: 1%;
+}
+
+ul.pagination li.active a.page {
+  background-color: #5c6bc0 !important;
+  border-radius: 3px;
+}
+
+.sb {
+
+  border: 1.2px solid black !important;
+  border-radius: 4px !important;
+  background-color: white !important;
+  padding-left: 3px !important;
+
+}
+.cart_icon{
+  font-family:Quicksand !important; 
+  font-size:15px !important; 
+  border-radius: 3px !important;
+  color: white !important;
+  background-color: red !important;
+}
+
+ 
